@@ -1,0 +1,1 @@
+ultraMegaSin = 1 : megaSin ultraMegaSin where megaSin(x:xs) = sin x : megaSin xs

@@ -1,0 +1,2 @@
+isosc (x1,y1) (x2,y2) (x3,y3) = let sideLength (x1,y1) (x2,y2) = sqrt((x2-x1)^2 +(y2-y1)^2)
+    in (sideLength (x1,y1) (x2,y2) == sideLength (x2,y2) (x3,y3)) && (sideLength (x2,y2) (x3,y3) == sideLength (x3,y3) (x1,y1))

@@ -1,0 +1,1 @@
+minsum xs = minimum (zipWith (+) xs (tail xs)) 

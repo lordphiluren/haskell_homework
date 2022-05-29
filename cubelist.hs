@@ -1,0 +1,1 @@
+cubeList n = [(x, x^3) | x <- [1..n]]

@@ -1,0 +1,1 @@
+facts = map fact [1..] where fact n = product [1..n]

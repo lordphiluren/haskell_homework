@@ -1,0 +1,1 @@
+countOdd = length . filter (odd) 

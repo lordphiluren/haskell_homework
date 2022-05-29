@@ -1,0 +1,1 @@
+f n = tail (scanl (\a b -> a * (-b)) (-1) (replicate n 1))

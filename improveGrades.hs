@@ -1,0 +1,1 @@
+improveGrades = map (\t -> if t < 3 then 3 else t)

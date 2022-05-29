@@ -1,0 +1,1 @@
+bigSin num = head [ y | y <- [sin x | x <- [1..]], y>=num]
